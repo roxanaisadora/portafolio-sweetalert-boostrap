@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body{
+    background: url("https://cdn.pixabay.com/photo/2015/12/27/05/48/turntable-1109588_960_720.jpg") fixed no-repeat;
+    background-size: cover; 
+}
+
+header, main, footer{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+header{
+    padding-top: 30px;
+}
+main{
+    padding-top: 40px;
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+h1, h2{
+    color: azure;
+    text-align: center;
+}
+a, u {
+    text-decoration: none;
+  }
+
+.contenido-header h2{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.contenido-header{
+    background-color: rgba(10, 10, 10, 0.642);
+    padding-bottom: 30px;
+
+}
+.container-fluid{
+    height: 50px;
+    background-color: rgba(10, 10, 10);
+}
+.contact-section-header p{
+    color: white;
+    text-align: center;
+}
+.titulo-header{
+    padding-top: 15px;
+    color: rgb(0, 225, 255);
+}
+.texto-header{
+    padding-top: 30px;
+}
+.container-body{
+    background-color: rgba(10, 10, 10, 0.4);
+}
+.nav-link{
+    color: rgb(238, 113, 206);
+    font-size: 23px;
+}
+.nav-link:hover {
+    color: rgb(248, 172, 49);
+    font-size: 28px;
+}
+.titulo-header{
+    text-align: center;
+    padding-top:40px ;
+}
+
+.title-portafolio{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.form-label{
+    color: azure;
+}
+.tamaño{
+    height: 180px;
+}
+
+.py-1{
+    background-color: rgba(10, 10, 10, 0.4);
+    padding-top: 30px;
+}
+.card-tamaño{
+    height: 240px;
+}
+
+.card-body-theme{
+    height: 55px;
+    background-color: rgba(0, 0, 6, 0.853);
+}
+
+
+.code {
+    color: rgba(0, 0, 6, 0.853);
+    transition: color 0.3s ease-out;
+}
+
+.project-title{
+    color: rgb(162, 240, 240);
+}
+
+.project:hover .code {
+    color: #ff50e2;
+}
+
+.project:hover .project-title{
+    font-size: 22px;
+}
+
+.texto-header{
+    outline: 20cm;
+}
+
+.contact-section{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.icon{
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+}
+.icon_2{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.card-color-my{
+    background-color: black;
+}
+
+@media (max-width: 40em) {
+    .nav-link{
+        font-size: 17px;
+    }
+    .nav-link:hover {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 65em) {
+    .project-title{
+        font-size: 13px;
+        color: rgb(162, 240, 240);
+    }
+    .project:hover .project-title{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 40em) {
+    .project-title{
+        font-size: 10px;
+        color: rgb(162, 240, 240);
+    }
+    .project:hover .project-title{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 60em) {
+    .contact-section {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  }
